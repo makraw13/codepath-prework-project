@@ -1,0 +1,125 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: darkslategray;
+  color: white;
+}
+
+h1 {
+  font-style: normal;
+  color: white;
+  font-family: verdana, arial, sans-serif; 
+}
+
+p {
+  color: goldenrod;
+}
+
+button {
+  padding: 20px;
+  border-radius: 20px;
+  font-style: normal;
+  color: black;
+  background: goldenrod;
+  font-family: verdana, arial, sans-serif; 
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:5px;
+}
+
+.hidden{
+  display: none;
+}
+
+#strikes > p {
+  color: white;
+}
+
+#button1 {
+  background: lightgreen;
+}
+#button1:active, #button1.lit {
+  background: forestgreen;
+  background: url("https://cdn.glitch.com/7ee2976c-7a9d-4aed-a98f-7162e262f3fd%2Fsaria.png?v=1616549899462");
+  background-size: 340px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#button2 {
+  background: lemonchiffon;
+}
+#button2:active, #button2.lit {
+  background: gold;
+  background: url(https://cdn.glitch.com/7ee2976c-7a9d-4aed-a98f-7162e262f3fd%2Ftriforce.jpg?v=1616549897634);
+  background-size: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#button3 {
+  background: lightblue;
+}
+#button3:active, #button3.lit {
+  background: blue;
+  background: url("https://cdn.glitch.com/7ee2976c-7a9d-4aed-a98f-7162e262f3fd%2Fwater.jpg?v=1616549898436");
+  background-size: 320px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#button4 {
+  background: pink;
+}
+#button4:active, #button4.lit {
+  background: red;
+  background: url("https://cdn.glitch.com/7ee2976c-7a9d-4aed-a98f-7162e262f3fd%2Fbolero.jpg?v=1616549898312");
+  background-repeat: no-repeat;
+
+}
+
+#button5 {
+  background: plum;
+}
+#button5:active, #button5.lit {
+  background: purple;
+  background: url("https://cdn.glitch.com/7ee2976c-7a9d-4aed-a98f-7162e262f3fd%2Fzelda.jpg?v=1616549898489");
+  background-size: 330px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+#button6 {
+  background: tan;
+}
+#button6:active, #button6.lit {
+  background: saddlebrown;
+  background: url("https://cdn.glitch.com/7ee2976c-7a9d-4aed-a98f-7162e262f3fd%2Fepona.jpg?v=1616563100310");
+  background-size: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#button7 {
+  background: lightcyan;
+}
+#button7:active, #button7.lit {
+  background: turquoise;
+  background: url("https://cdn.glitch.com/7ee2976c-7a9d-4aed-a98f-7162e262f3fd%2Fsword.jpg?v=1616563103515");
+  background-size: 390px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+

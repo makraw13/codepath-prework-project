@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Simon's Ocarina</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Simon's Ocarina</h1>
+    
+    <p>
+      Hello! Learn Simon's favorite song by clicking on the buttons after he gives you a note.<br>
+      You can miss 3 notes before you have to start over.
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" onclick="stopGame()" class="hidden" >
+      Stop
+    </button>
+    
+    <button id="hearSongBtn" onclick= "playFullSong()">Hear Song</button>
+    <button id="watchSongBtn" onclick= "playFullSong()" class="hidden">Play Song</button>
+    
+<!--     <button id="testing_button" onclick= "winGame()">Win Game</button> -->
+    
+    <div id="strikes">
+      <p id="0Strikes"> Strikes: 0</p>
+      <p id="1Strikes" class="hidden"> Strikes: 1</p>
+      <p id="2Strikes" class="hidden"> Strikes: 2</p>
+      <p id="3Strikes" class="hidden"> Strikes: 3</p>
+    </div>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+    </div>
+    
+  </body>
+</html>
