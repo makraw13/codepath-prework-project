@@ -4,7 +4,7 @@ Simon's Ocarina is a Light & Sound Memory game to apply for CodePath's SITE Prog
 
 Submitted by: Michaela Krawczyk
 
-Time spent: 9 hours spent in total
+Time spent: 10 hours spent in total
 
 \*\*\*Link to project: (insert your link here, should start with https://glitch.com...)
 
